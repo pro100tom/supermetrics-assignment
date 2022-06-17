@@ -13,7 +13,7 @@ class NoopCalculator extends AbstractCalculator
     protected const UNITS = 'posts';
 
     /**
-     * @var array
+     * @var SocialPostTo[]
      */
     private array $posts = [];
 
