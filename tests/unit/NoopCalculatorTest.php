@@ -42,7 +42,7 @@ class NoopCalculatorTest extends TestCase
             $calculator->accumulateData($socialPostTo);
         }
 
-        $this->assertEquals(round(5 / 4, 2), round($calculator->calculate()->getValue(), 2));
+        $this->assertEquals(round(5 / 4, 2), $calculator->calculate()->getValue());
     }
 
     /**
